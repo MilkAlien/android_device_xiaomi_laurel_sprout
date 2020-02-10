@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Syberia stuff
-$(call inherit-product, vendor/syberia/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := syberia_laurel_sprout
+PRODUCT_NAME := aosp_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI A3
