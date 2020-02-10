@@ -543,4 +543,9 @@
     <!-- Whether to use base rounded corner radius for window animations instead
           of min between top and bottom radius-->
     <bool name="config_useDefaultRoundedCornerRadius">true</bool>
+
+    <!-- Enable MAC Randomization support -->
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
+    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
+
 </resources>
